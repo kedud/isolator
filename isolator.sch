@@ -70,34 +70,16 @@ U 1 1 56D7713F
 P 6450 2250
 F 0 "RV111" H 6610 2560 50  0000 C CNN
 F 1 "100K" H 6740 1950 50  0000 C CNN
-F 2 "ALPS_pot:Potentiometer_ALPS_RK27112A0A16" H 6450 2250 50  0001 C CNN
-F 3 "" H 6450 2250 50  0000 C CNN
-F 4 "RK27112A0A16" H 6450 2250 60  0001 C CNN "Mfg_Part_No"
+F 2 "potentiometers:Potentiometer_ALPS_RK27" H 6450 2250 50  0001 C CNN
+F 3 "http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Potentiometer/RotaryPotentiometers/RK271/RK27112A0A16.html" H 6450 2250 50  0001 C CNN
+F 4 "RK27112A0A16" H 6450 2250 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6450 2250 60  0001 C CNN "Distributor"
+F 6 "688-RK27112A0A16" H 6450 2250 60  0001 C CNN "Distributor Part #"
+F 7 "RK27" H 6450 2250 60  0001 C CNN "Package"
+F 8 "Potentiomètres Flat 20mm 100k" H 6450 2250 60  0001 C CNN "Description"
+F 9 "ALPS" H 6450 2250 60  0001 C CNN "Manufacturer"
+F 10 "RK27112A0A16" H 6450 2250 60  0001 C CNN "Mfg_Part_No"
 	1    6450 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L DUAL_POT RV121
-U 1 1 56D771AD
-P 6450 3650
-F 0 "RV121" H 6610 3960 50  0000 C CNN
-F 1 "100K" H 6740 3350 50  0000 C CNN
-F 2 "ALPS_pot:Potentiometer_ALPS_RK27112A0A16" H 6450 3650 50  0001 C CNN
-F 3 "" H 6450 3650 50  0000 C CNN
-F 4 "RK27112A0A16" H 6450 3650 60  0001 C CNN "Mfg_Part_No"
-	1    6450 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L DUAL_POT RV131
-U 1 1 56D7724C
-P 6450 5150
-F 0 "RV131" H 6610 5460 50  0000 C CNN
-F 1 "100K" H 6740 4850 50  0000 C CNN
-F 2 "ALPS_pot:Potentiometer_ALPS_RK27112A0A16" H 6450 5150 50  0001 C CNN
-F 3 "" H 6450 5150 50  0000 C CNN
-F 4 "RK27112A0A16" H 6450 5150 60  0001 C CNN "Mfg_Part_No"
-	1    6450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,7 +154,7 @@ U 1 1 56D77ED6
 P 7500 3450
 F 0 "R121" V 7580 3450 50  0000 C CNN
 F 1 "100K" V 7500 3450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 3450 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 3450 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 3450 50  0001 C CNN
 F 4 "CCF50100KFKR36" H 7500 3450 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 7500 3450 60  0001 C CNN "Distributor"
@@ -275,11 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2450 8800 2450
 Wire Wire Line
-	8800 2450 8800 3850
-Wire Wire Line
-	8800 3850 8800 4600
-Wire Wire Line
-	8800 4600 8800 5350
+	8800 2450 8800 5350
 Wire Wire Line
 	8800 3850 7650 3850
 Wire Wire Line
@@ -288,11 +266,7 @@ Connection ~ 8800 3850
 Wire Wire Line
 	8550 4950 7600 4950
 Wire Wire Line
-	8550 2050 8550 2250
-Wire Wire Line
-	8550 2250 8550 3450
-Wire Wire Line
-	8550 3450 8550 4950
+	8550 2050 8550 4950
 Wire Wire Line
 	8550 3450 7650 3450
 Wire Wire Line
@@ -326,7 +300,7 @@ U 1 1 5706E763
 P 9700 3100
 F 0 "R142" H 9730 3120 50  0000 L CNN
 F 1 "47K" H 9730 3060 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 9700 3100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9700 3100 50  0001 C CNN
 F 3 "" H 9700 3100 50  0000 C CNN
 F 4 "CCF0747K0JKE36" H 9700 3100 60  0001 C CNN "Mfg_Part_No"
 	1    9700 3100
@@ -339,7 +313,7 @@ U 1 1 5706F3A2
 P 10200 2900
 F 0 "R141" V 10100 2900 50  0000 L CNN
 F 1 "470K" V 10300 2800 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 10200 2900 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 10200 2900 50  0001 C CNN
 F 3 "" H 10200 2900 50  0000 C CNN
 F 4 "CCF07470KGKE36" H 10200 2900 60  0001 C CNN "Mfg_Part_No"
 	1    10200 2900
@@ -348,16 +322,12 @@ $EndComp
 Wire Wire Line
 	9800 2450 9700 2450
 Wire Wire Line
-	9700 2450 9700 2900
-Wire Wire Line
-	9700 2900 9700 3000
+	9700 2450 9700 3000
 Wire Wire Line
 	10100 2900 9700 2900
 Connection ~ 9700 2900
 Wire Wire Line
-	10400 2350 10600 2350
-Wire Wire Line
-	10600 2350 10950 2350
+	10400 2350 10950 2350
 Wire Wire Line
 	10600 2350 10600 2900
 Wire Wire Line
@@ -381,7 +351,7 @@ U 1 1 5706F8A0
 P 9650 5450
 F 0 "R152" H 9680 5470 50  0000 L CNN
 F 1 "47K" H 9680 5410 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 9650 5450 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9650 5450 50  0001 C CNN
 F 3 "" H 9650 5450 50  0000 C CNN
 F 4 "CCF0747K0JKE36" H 9650 5450 60  0001 C CNN "Mfg_Part_No"
 	1    9650 5450
@@ -393,16 +363,14 @@ U 1 1 5706F8A7
 P 10150 5250
 F 0 "R151" V 10050 5250 50  0000 L CNN
 F 1 "470K" V 10250 5150 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 10150 5250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 10150 5250 50  0001 C CNN
 F 3 "" H 10150 5250 50  0000 C CNN
 F 4 "CCF07470KGKE36" H 10150 5250 60  0001 C CNN "Mfg_Part_No"
 	1    10150 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9650 4800 9650 5250
-Wire Wire Line
-	9650 5250 9650 5350
+	9650 4800 9650 5350
 Wire Wire Line
 	10050 5250 9650 5250
 Connection ~ 9650 5250
@@ -426,9 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 4800 9650 4800
 Wire Wire Line
-	10400 4700 10550 4700
-Wire Wire Line
-	10550 4700 10900 4700
+	10400 4700 10900 4700
 $Comp
 L Header_01x03 H102
 U 1 1 57070FED
@@ -524,16 +490,12 @@ F 4 "CCF50100RFKR36" H 2350 6950 60  0001 C CNN "Mfg_Part_No"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2500 6750 2550 6750
-Wire Wire Line
-	2550 6750 3100 6750
+	2500 6750 3100 6750
 Wire Wire Line
 	2550 6750 2550 6650
 Connection ~ 2550 6750
 Wire Wire Line
-	2500 6950 2550 6950
-Wire Wire Line
-	2550 6950 3100 6950
+	2500 6950 3100 6950
 Wire Wire Line
 	2550 7050 2550 6950
 Connection ~ 2550 6950
@@ -640,7 +602,7 @@ U 1 1 5A0D76DB
 P 7500 3850
 F 0 "R122" V 7580 3850 50  0000 C CNN
 F 1 "100K" V 7500 3850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 3850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 3850 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 3850 50  0001 C CNN
 F 4 "CCF50100KFKR36" H 7500 3850 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 7500 3850 60  0001 C CNN "Distributor"
@@ -658,7 +620,7 @@ U 1 1 5A0D795C
 P 7500 2050
 F 0 "R111" V 7580 2050 50  0000 C CNN
 F 1 "100K" V 7500 2050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 2050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 2050 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 2050 50  0001 C CNN
 F 4 "CCF50100KFKR36" H 7500 2050 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 7500 2050 60  0001 C CNN "Distributor"
@@ -676,7 +638,7 @@ U 1 1 5A0D7A4C
 P 7500 2450
 F 0 "R112" V 7580 2450 50  0000 C CNN
 F 1 "100K" V 7500 2450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 2450 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 2450 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 2450 50  0001 C CNN
 F 4 "CCF50100KFKR36" H 7500 2450 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 7500 2450 60  0001 C CNN "Distributor"
@@ -694,7 +656,7 @@ U 1 1 5A0D7E4E
 P 7450 4950
 F 0 "R131" V 7530 4950 50  0000 C CNN
 F 1 "100K" V 7450 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7380 4950 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7380 4950 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7450 4950 50  0001 C CNN
 F 4 "CCF50100KFKR36" H 7450 4950 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 7450 4950 60  0001 C CNN "Distributor"
@@ -712,7 +674,7 @@ U 1 1 5A0D7EE3
 P 7450 5350
 F 0 "R132" V 7530 5350 50  0000 C CNN
 F 1 "100K" V 7450 5350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7380 5350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7380 5350 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7450 5350 50  0001 C CNN
 F 4 "CCF50100KFKR36" H 7450 5350 60  0001 C CNN "Mfg_Part_#"
 F 5 "Mouser" H 7450 5350 60  0001 C CNN "Distributor"
@@ -723,5 +685,41 @@ F 9 "Vishay / Dale" H 7450 5350 60  0001 C CNN "Manufacturer"
 F 10 "CCF50100KFKR36" H 7450 5350 60  0001 C CNN "Mfg_Part_No"
 	1    7450 5350
 	0    1    1    0   
+$EndComp
+$Comp
+L DUAL_POT RV121
+U 1 1 5A0D74C1
+P 6450 3650
+F 0 "RV121" H 6610 3960 50  0000 C CNN
+F 1 "100K" H 6740 3350 50  0000 C CNN
+F 2 "potentiometers:Potentiometer_ALPS_RK27" H 6450 3650 50  0001 C CNN
+F 3 "http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Potentiometer/RotaryPotentiometers/RK271/RK27112A0A16.html" H 6450 3650 50  0001 C CNN
+F 4 "RK27112A0A16" H 6450 3650 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6450 3650 60  0001 C CNN "Distributor"
+F 6 "688-RK27112A0A16" H 6450 3650 60  0001 C CNN "Distributor Part #"
+F 7 "RK27" H 6450 3650 60  0001 C CNN "Package"
+F 8 "Potentiomètres Flat 20mm 100k" H 6450 3650 60  0001 C CNN "Description"
+F 9 "ALPS" H 6450 3650 60  0001 C CNN "Manufacturer"
+F 10 "RK27112A0A16" H 6450 3650 60  0001 C CNN "Mfg_Part_No"
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DUAL_POT RV131
+U 1 1 5A0D77F6
+P 6450 5150
+F 0 "RV131" H 6610 5460 50  0000 C CNN
+F 1 "100K" H 6740 4850 50  0000 C CNN
+F 2 "potentiometers:Potentiometer_ALPS_RK27" H 6450 5150 50  0001 C CNN
+F 3 "http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Potentiometer/RotaryPotentiometers/RK271/RK27112A0A16.html" H 6450 5150 50  0001 C CNN
+F 4 "RK27112A0A16" H 6450 5150 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6450 5150 60  0001 C CNN "Distributor"
+F 6 "688-RK27112A0A16" H 6450 5150 60  0001 C CNN "Distributor Part #"
+F 7 "RK27" H 6450 5150 60  0001 C CNN "Package"
+F 8 "Potentiomètres Flat 20mm 100k" H 6450 5150 60  0001 C CNN "Description"
+F 9 "ALPS" H 6450 5150 60  0001 C CNN "Manufacturer"
+F 10 "RK27112A0A16" H 6450 5150 60  0001 C CNN "Mfg_Part_No"
+	1    6450 5150
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
