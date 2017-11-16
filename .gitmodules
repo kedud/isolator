@@ -1,0 +1,3 @@
+[submodule "rm4-libraries"]
+	path = rm4-libraries
+	url = https://github.com/kedud/rm4-libraries
