@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name potentiometers)(type KiCad)(uri "$(KIPRJMOD)/rm4-libraries/modules/potentiometers.pretty")(options "")(descr ""))
+)
