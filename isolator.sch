@@ -618,10 +618,10 @@ F 9 "Texas Instruments" H 10100 2350 60  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NE5532 U?
-U 1 1 5A0D725C
+L NE5532 U101
+U 2 1 5A0D725C
 P 10100 4700
-F 0 "U?" H 10100 4900 50  0000 L CNN
+F 0 "U101" H 10100 4900 50  0000 L CNN
 F 1 "NE5532" H 10100 4500 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 10100 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/ne5532" H 10100 4700 50  0001 C CNN
@@ -631,7 +631,7 @@ F 6 "595-NE5532P" H 10100 4700 60  0001 C CNN "Distributor Part #"
 F 7 "8-PDIP" H 10100 4700 60  0001 C CNN "Package"
 F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 10100 4700 60  0001 C CNN "Description"
 F 9 "Texas Instruments" H 10100 4700 60  0001 C CNN "Manufacturer"
-	1    10100 4700
+	2    10100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
