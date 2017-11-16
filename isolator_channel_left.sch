@@ -910,126 +910,6 @@ Text HLabel 7650 4550 2    60   Output ~ 0
 OUT_MID
 Text HLabel 7650 6150 2    60   Output ~ 0
 OUT_LOW
-$Comp
-L NE5532-RESCUE-isolator U201
-U 1 1 5707D56E
-P 3250 1600
-AR Path="/56D7589A/5707D56E" Ref="U201"  Part="1" 
-AR Path="/56D7630B/5707D56E" Ref="U301"  Part="1" 
-AR Path="/5707D56E" Ref="U301"  Part="1" 
-F 0 "U301" H 3400 1750 50  0000 C CNN
-F 1 "NE5532" H 3500 1450 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3250 1600 50  0001 C CNN
-F 3 "" H 3250 1600 50  0000 C CNN
-F 4 "NE5532P" H 3250 1600 60  0001 C CNN "Mfg_Part_No"
-	1    3250 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U201
-U 1 1 5707D56F
-P 5850 1600
-AR Path="/56D7589A/5707D56F" Ref="U201"  Part="2" 
-AR Path="/56D7630B/5707D56F" Ref="U302"  Part="1" 
-AR Path="/5707D56F" Ref="U302"  Part="1" 
-F 0 "U302" H 6000 1750 50  0000 C CNN
-F 1 "NE5532" H 6100 1450 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5850 1600 50  0001 C CNN
-F 3 "" H 5850 1600 50  0000 C CNN
-F 4 "NE5532P" H 5850 1600 60  0001 C CNN "Mfg_Part_No"
-	1    5850 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U202
-U 1 1 5707D570
-P 3250 3150
-AR Path="/56D7589A/5707D570" Ref="U202"  Part="1" 
-AR Path="/56D7630B/5707D570" Ref="U303"  Part="1" 
-AR Path="/5707D570" Ref="U303"  Part="1" 
-F 0 "U303" H 3400 3300 50  0000 C CNN
-F 1 "NE5532" H 3500 3000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3250 3150 50  0001 C CNN
-F 3 "" H 3250 3150 50  0000 C CNN
-F 4 "NE5532P" H 3250 3150 60  0001 C CNN "Mfg_Part_No"
-	1    3250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U202
-U 1 1 56D77823
-P 5850 3150
-AR Path="/56D7589A/56D77823" Ref="U202"  Part="2" 
-AR Path="/56D7630B/56D77823" Ref="U304"  Part="1" 
-AR Path="/56D77823" Ref="U304"  Part="1" 
-F 0 "U304" H 6000 3300 50  0000 C CNN
-F 1 "NE5532" H 6100 3000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5850 3150 50  0001 C CNN
-F 3 "" H 5850 3150 50  0000 C CNN
-F 4 "NE5532P" H 5850 3150 60  0001 C CNN "Mfg_Part_No"
-	1    5850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U203
-U 1 1 56D778B4
-P 6000 4550
-AR Path="/56D7589A/56D778B4" Ref="U203"  Part="2" 
-AR Path="/56D7630B/56D778B4" Ref="U306"  Part="1" 
-AR Path="/56D778B4" Ref="U306"  Part="1" 
-F 0 "U306" H 6150 4700 50  0000 C CNN
-F 1 "NE5532" H 6250 4400 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 6000 4550 50  0001 C CNN
-F 3 "" H 6000 4550 50  0000 C CNN
-F 4 "NE5532P" H 6000 4550 60  0001 C CNN "Mfg_Part_No"
-	1    6000 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U203
-U 1 1 56D77A2A
-P 3400 4550
-AR Path="/56D7589A/56D77A2A" Ref="U203"  Part="1" 
-AR Path="/56D7630B/56D77A2A" Ref="U305"  Part="1" 
-AR Path="/56D77A2A" Ref="U305"  Part="1" 
-F 0 "U305" H 3550 4700 50  0000 C CNN
-F 1 "NE5532" H 3650 4400 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3400 4550 50  0001 C CNN
-F 3 "" H 3400 4550 50  0000 C CNN
-F 4 "NE5532P" H 3400 4550 60  0001 C CNN "Mfg_Part_No"
-	1    3400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U204
-U 1 1 56D77AC1
-P 3400 6150
-AR Path="/56D7589A/56D77AC1" Ref="U204"  Part="1" 
-AR Path="/56D7630B/56D77AC1" Ref="U307"  Part="1" 
-AR Path="/56D77AC1" Ref="U307"  Part="1" 
-F 0 "U307" H 3550 6300 50  0000 C CNN
-F 1 "NE5532" H 3650 6000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3400 6150 50  0001 C CNN
-F 3 "" H 3400 6150 50  0000 C CNN
-F 4 "NE5532P" H 3400 6150 60  0001 C CNN "Mfg_Part_No"
-	1    3400 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U204
-U 1 1 5707D575
-P 6000 6150
-AR Path="/56D7589A/5707D575" Ref="U204"  Part="2" 
-AR Path="/56D7630B/5707D575" Ref="U308"  Part="1" 
-AR Path="/5707D575" Ref="U308"  Part="1" 
-F 0 "U308" H 6150 6300 50  0000 C CNN
-F 1 "NE5532" H 6250 6000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 6000 6150 50  0001 C CNN
-F 3 "" H 6000 6150 50  0000 C CNN
-F 4 "NE5532P" H 6000 6150 60  0001 C CNN "Mfg_Part_No"
-	1    6000 6150
-	1    0    0    -1  
-$EndComp
 Text Label 3150 1300 0    60   ~ 0
 V+
 Text Label 5750 1300 0    60   ~ 0
@@ -1074,4 +954,140 @@ Wire Wire Line
 	900  950  1150 950 
 Wire Wire Line
 	1150 750  900  750 
+$Comp
+L NE5532 U301
+U 1 1 5A0D9B0B
+P 3250 1600
+F 0 "U301" H 3250 1800 50  0000 L CNN
+F 1 "NE5532" H 3250 1400 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3250 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 3250 1600 50  0001 C CNN
+F 4 "NE5532P" H 3250 1600 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3250 1600 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 3250 1600 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 3250 1600 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 3250 1600 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 3250 1600 60  0001 C CNN "Manufacturer"
+	1    3250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U302
+U 1 1 5A0D9B6E
+P 5850 1600
+F 0 "U302" H 5850 1800 50  0000 L CNN
+F 1 "NE5532" H 5850 1400 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5850 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 5850 1600 50  0001 C CNN
+F 4 "NE5532P" H 5850 1600 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5850 1600 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 5850 1600 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 5850 1600 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 5850 1600 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 5850 1600 60  0001 C CNN "Manufacturer"
+	1    5850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U303
+U 1 1 5A0D9C6A
+P 3250 3150
+F 0 "U303" H 3250 3350 50  0000 L CNN
+F 1 "NE5532" H 3250 2950 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3250 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 3250 3150 50  0001 C CNN
+F 4 "NE5532P" H 3250 3150 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3250 3150 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 3250 3150 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 3250 3150 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 3250 3150 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 3250 3150 60  0001 C CNN "Manufacturer"
+	1    3250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U304
+U 1 1 5A0D9D12
+P 5850 3150
+F 0 "U304" H 5850 3350 50  0000 L CNN
+F 1 "NE5532" H 5850 2950 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5850 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 5850 3150 50  0001 C CNN
+F 4 "NE5532P" H 5850 3150 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5850 3150 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 5850 3150 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 5850 3150 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 5850 3150 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 5850 3150 60  0001 C CNN "Manufacturer"
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U305
+U 1 1 5A0DA1AA
+P 3400 4550
+F 0 "U305" H 3400 4750 50  0000 L CNN
+F 1 "NE5532" H 3400 4350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3400 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 3400 4550 50  0001 C CNN
+F 4 "NE5532P" H 3400 4550 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3400 4550 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 3400 4550 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 3400 4550 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 3400 4550 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 3400 4550 60  0001 C CNN "Manufacturer"
+	1    3400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U306
+U 1 1 5A0DA24E
+P 6000 4550
+F 0 "U306" H 6000 4750 50  0000 L CNN
+F 1 "NE5532" H 6000 4350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 6000 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 6000 4550 50  0001 C CNN
+F 4 "NE5532P" H 6000 4550 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6000 4550 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 6000 4550 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 6000 4550 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 6000 4550 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 6000 4550 60  0001 C CNN "Manufacturer"
+	1    6000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U307
+U 1 1 5A0DA49E
+P 3400 6150
+F 0 "U307" H 3400 6350 50  0000 L CNN
+F 1 "NE5532" H 3400 5950 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3400 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 3400 6150 50  0001 C CNN
+F 4 "NE5532P" H 3400 6150 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 3400 6150 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 3400 6150 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 3400 6150 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 3400 6150 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 3400 6150 60  0001 C CNN "Manufacturer"
+	1    3400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U308
+U 1 1 5A0DA545
+P 6000 6150
+F 0 "U308" H 6000 6350 50  0000 L CNN
+F 1 "NE5532" H 6000 5950 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 6000 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 6000 6150 50  0001 C CNN
+F 4 "NE5532P" H 6000 6150 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6000 6150 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 6000 6150 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 6000 6150 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 6000 6150 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 6000 6150 60  0001 C CNN "Manufacturer"
+	1    6000 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

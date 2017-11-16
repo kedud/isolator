@@ -167,75 +167,21 @@ F 3 "" H 6300 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R111
-U 1 1 56D77CC4
-P 7500 2050
-F 0 "R111" V 7580 2050 50  0000 C CNN
-F 1 "100K" V 7500 2050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 2050 50  0001 C CNN
-F 3 "" H 7500 2050 50  0000 C CNN
-F 4 "CCF50100KFKR36" H 7500 2050 60  0001 C CNN "Mfg_Part_No"
-	1    7500 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R112
-U 1 1 56D77DB7
-P 7500 2450
-F 0 "R112" V 7580 2450 50  0000 C CNN
-F 1 "100K" V 7500 2450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 2450 50  0001 C CNN
-F 3 "" H 7500 2450 50  0000 C CNN
-F 4 "CCF50100KFKR36" H 7500 2450 60  0001 C CNN "Mfg_Part_No"
-	1    7500 2450
-	0    1    1    0   
-$EndComp
-$Comp
 L R R121
 U 1 1 56D77ED6
 P 7500 3450
 F 0 "R121" V 7580 3450 50  0000 C CNN
 F 1 "100K" V 7500 3450 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 3450 50  0001 C CNN
-F 3 "" H 7500 3450 50  0000 C CNN
-F 4 "CCF50100KFKR36" H 7500 3450 60  0001 C CNN "Mfg_Part_No"
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 3450 50  0001 C CNN
+F 4 "CCF50100KFKR36" H 7500 3450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7500 3450 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-100K" H 7500 3450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 7500 3450 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 100Kohms 1%" H 7500 3450 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 7500 3450 60  0001 C CNN "Manufacturer"
+F 10 "CCF50100KFKR36" H 7500 3450 60  0001 C CNN "Mfg_Part_No"
 	1    7500 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L R R122
-U 1 1 56D77F51
-P 7500 3850
-F 0 "R122" V 7580 3850 50  0000 C CNN
-F 1 "100K" V 7500 3850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 3850 50  0001 C CNN
-F 3 "" H 7500 3850 50  0000 C CNN
-F 4 "CCF50100KFKR36" H 7500 3850 60  0001 C CNN "Mfg_Part_No"
-	1    7500 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L R R131
-U 1 1 56D77FC5
-P 7450 4950
-F 0 "R131" V 7530 4950 50  0000 C CNN
-F 1 "100K" V 7450 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7380 4950 50  0001 C CNN
-F 3 "" H 7450 4950 50  0000 C CNN
-F 4 "CCF50100KFKR36" H 7450 4950 60  0001 C CNN "Mfg_Part_No"
-	1    7450 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R132
-U 1 1 56D7803C
-P 7450 5350
-F 0 "R132" V 7530 5350 50  0000 C CNN
-F 1 "100K" V 7450 5350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7380 5350 50  0001 C CNN
-F 3 "" H 7450 5350 50  0000 C CNN
-F 4 "CCF50100KFKR36" H 7450 5350 60  0001 C CNN "Mfg_Part_No"
-	1    7450 5350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -329,7 +275,11 @@ Wire Wire Line
 Wire Wire Line
 	7650 2450 8800 2450
 Wire Wire Line
-	8800 2450 8800 5350
+	8800 2450 8800 3850
+Wire Wire Line
+	8800 3850 8800 4600
+Wire Wire Line
+	8800 4600 8800 5350
 Wire Wire Line
 	8800 3850 7650 3850
 Wire Wire Line
@@ -338,36 +288,16 @@ Connection ~ 8800 3850
 Wire Wire Line
 	8550 4950 7600 4950
 Wire Wire Line
-	8550 2050 8550 4950
+	8550 2050 8550 2250
+Wire Wire Line
+	8550 2250 8550 3450
+Wire Wire Line
+	8550 3450 8550 4950
 Wire Wire Line
 	8550 3450 7650 3450
 Wire Wire Line
 	7650 2050 8550 2050
 Connection ~ 8550 3450
-$Comp
-L NE5532-RESCUE-isolator U101
-U 1 1 5706B467
-P 10100 2350
-F 0 "U101" H 10250 2500 50  0000 C CNN
-F 1 "NE5532" H 10350 2200 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 10100 2350 50  0001 C CNN
-F 3 "" H 10100 2350 50  0000 C CNN
-F 4 "NE5532P" H 10100 2350 60  0001 C CNN "Mfg_Part_No"
-	1    10100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532-RESCUE-isolator U101
-U 2 1 5706B4D4
-P 10100 4700
-F 0 "U101" H 10250 4850 50  0000 C CNN
-F 1 "NE5532" H 10350 4550 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 10100 4700 50  0001 C CNN
-F 3 "" H 10100 4700 50  0000 C CNN
-F 4 "NE5532P" H 10100 4700 60  0001 C CNN "Mfg_Part_No"
-	2    10100 4700
-	1    0    0    -1  
-$EndComp
 Text Label 10000 1950 0    60   ~ 0
 V+
 Text Label 10000 2750 0    60   ~ 0
@@ -418,12 +348,16 @@ $EndComp
 Wire Wire Line
 	9800 2450 9700 2450
 Wire Wire Line
-	9700 2450 9700 3000
+	9700 2450 9700 2900
+Wire Wire Line
+	9700 2900 9700 3000
 Wire Wire Line
 	10100 2900 9700 2900
 Connection ~ 9700 2900
 Wire Wire Line
-	10400 2350 10950 2350
+	10400 2350 10600 2350
+Wire Wire Line
+	10600 2350 10950 2350
 Wire Wire Line
 	10600 2350 10600 2900
 Wire Wire Line
@@ -466,7 +400,9 @@ F 4 "CCF07470KGKE36" H 10150 5250 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9650 4800 9650 5350
+	9650 4800 9650 5250
+Wire Wire Line
+	9650 5250 9650 5350
 Wire Wire Line
 	10050 5250 9650 5250
 Connection ~ 9650 5250
@@ -490,7 +426,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 4800 9650 4800
 Wire Wire Line
-	10400 4700 10900 4700
+	10400 4700 10550 4700
+Wire Wire Line
+	10550 4700 10900 4700
 $Comp
 L Header_01x03 H102
 U 1 1 57070FED
@@ -586,12 +524,16 @@ F 4 "CCF50100RFKR36" H 2350 6950 60  0001 C CNN "Mfg_Part_No"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2500 6750 3100 6750
+	2500 6750 2550 6750
+Wire Wire Line
+	2550 6750 3100 6750
 Wire Wire Line
 	2550 6750 2550 6650
 Connection ~ 2550 6750
 Wire Wire Line
-	2500 6950 3100 6950
+	2500 6950 2550 6950
+Wire Wire Line
+	2550 6950 3100 6950
 Wire Wire Line
 	2550 7050 2550 6950
 Connection ~ 2550 6950
@@ -658,4 +600,128 @@ Text Label 10300 3250 0    60   ~ 0
 Right_output
 Wire Wire Line
 	1700 6850 1550 6850
+$Comp
+L NE5532 U101
+U 1 1 5A0D6AA2
+P 10100 2350
+F 0 "U101" H 10100 2550 50  0000 L CNN
+F 1 "NE5532" H 10100 2150 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 10100 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 10100 2350 50  0001 C CNN
+F 4 "NE5532P" H 10100 2350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 10100 2350 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 10100 2350 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 10100 2350 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 10100 2350 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 10100 2350 60  0001 C CNN "Manufacturer"
+	1    10100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U?
+U 1 1 5A0D725C
+P 10100 4700
+F 0 "U?" H 10100 4900 50  0000 L CNN
+F 1 "NE5532" H 10100 4500 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 10100 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 10100 4700 50  0001 C CNN
+F 4 "NE5532P" H 10100 4700 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 10100 4700 60  0001 C CNN "Distributor"
+F 6 "595-NE5532P" H 10100 4700 60  0001 C CNN "Distributor Part #"
+F 7 "8-PDIP" H 10100 4700 60  0001 C CNN "Package"
+F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 10100 4700 60  0001 C CNN "Description"
+F 9 "Texas Instruments" H 10100 4700 60  0001 C CNN "Manufacturer"
+	1    10100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R122
+U 1 1 5A0D76DB
+P 7500 3850
+F 0 "R122" V 7580 3850 50  0000 C CNN
+F 1 "100K" V 7500 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 3850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 3850 50  0001 C CNN
+F 4 "CCF50100KFKR36" H 7500 3850 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7500 3850 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-100K" H 7500 3850 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 7500 3850 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 100Kohms 1%" H 7500 3850 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 7500 3850 60  0001 C CNN "Manufacturer"
+F 10 "CCF50100KFKR36" H 7500 3850 60  0001 C CNN "Mfg_Part_No"
+	1    7500 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R111
+U 1 1 5A0D795C
+P 7500 2050
+F 0 "R111" V 7580 2050 50  0000 C CNN
+F 1 "100K" V 7500 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 2050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 2050 50  0001 C CNN
+F 4 "CCF50100KFKR36" H 7500 2050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7500 2050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-100K" H 7500 2050 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 7500 2050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 100Kohms 1%" H 7500 2050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 7500 2050 60  0001 C CNN "Manufacturer"
+F 10 "CCF50100KFKR36" H 7500 2050 60  0001 C CNN "Mfg_Part_No"
+	1    7500 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R112
+U 1 1 5A0D7A4C
+P 7500 2450
+F 0 "R112" V 7580 2450 50  0000 C CNN
+F 1 "100K" V 7500 2450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7430 2450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7500 2450 50  0001 C CNN
+F 4 "CCF50100KFKR36" H 7500 2450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7500 2450 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-100K" H 7500 2450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 7500 2450 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 100Kohms 1%" H 7500 2450 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 7500 2450 60  0001 C CNN "Manufacturer"
+F 10 "CCF50100KFKR36" H 7500 2450 60  0001 C CNN "Mfg_Part_No"
+	1    7500 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R131
+U 1 1 5A0D7E4E
+P 7450 4950
+F 0 "R131" V 7530 4950 50  0000 C CNN
+F 1 "100K" V 7450 4950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7380 4950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7450 4950 50  0001 C CNN
+F 4 "CCF50100KFKR36" H 7450 4950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7450 4950 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-100K" H 7450 4950 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 7450 4950 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 100Kohms 1%" H 7450 4950 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 7450 4950 60  0001 C CNN "Manufacturer"
+F 10 "CCF50100KFKR36" H 7450 4950 60  0001 C CNN "Mfg_Part_No"
+	1    7450 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R132
+U 1 1 5A0D7EE3
+P 7450 5350
+F 0 "R132" V 7530 5350 50  0000 C CNN
+F 1 "100K" V 7450 5350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7380 5350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 7450 5350 50  0001 C CNN
+F 4 "CCF50100KFKR36" H 7450 5350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7450 5350 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-100K" H 7450 5350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 7450 5350 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 100Kohms 1%" H 7450 5350 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 7450 5350 60  0001 C CNN "Manufacturer"
+F 10 "CCF50100KFKR36" H 7450 5350 60  0001 C CNN "Mfg_Part_No"
+	1    7450 5350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
