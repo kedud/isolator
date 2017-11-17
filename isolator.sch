@@ -36,10 +36,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Isolator"
-Date "2016-04-07"
-Rev "Rev-A"
-Comp ""
-Comment1 ""
+Date "2017-11-17"
+Rev "A"
+Comp "D&D"
+Comment1 "Isolator module for RM4 mixer"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -167,17 +167,6 @@ F 10 "CCF50100KFKR36" H 7500 3450 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L Header_01x03 H101
-U 1 1 56D798C4
-P 850 3600
-F 0 "H101" H 1050 4050 60  0000 C CNN
-F 1 "Header_01x03" H 800 4250 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 850 3600 60  0001 C CNN
-F 3 "" H 850 3600 60  0000 C CNN
-	1    850  3600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GND #PWR07
 U 1 1 56D79FA0
 P 1500 3350
@@ -257,7 +246,11 @@ Wire Wire Line
 Wire Wire Line
 	7650 2450 8800 2450
 Wire Wire Line
-	8800 2450 8800 5350
+	8800 2450 8800 3850
+Wire Wire Line
+	8800 3850 8800 4600
+Wire Wire Line
+	8800 4600 8800 5350
 Wire Wire Line
 	8800 3850 7650 3850
 Wire Wire Line
@@ -266,7 +259,11 @@ Connection ~ 8800 3850
 Wire Wire Line
 	8550 4950 7600 4950
 Wire Wire Line
-	8550 2050 8550 4950
+	8550 2050 8550 2250
+Wire Wire Line
+	8550 2250 8550 3450
+Wire Wire Line
+	8550 3450 8550 4950
 Wire Wire Line
 	8550 3450 7650 3450
 Wire Wire Line
@@ -294,18 +291,6 @@ Text Label 1300 3200 0    60   ~ 0
 Right_in
 Wire Wire Line
 	9800 2250 8550 2250
-$Comp
-L R_Small R142
-U 1 1 5706E763
-P 9700 3100
-F 0 "R142" H 9730 3120 50  0000 L CNN
-F 1 "47K" H 9730 3060 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9700 3100 50  0001 C CNN
-F 3 "" H 9700 3100 50  0000 C CNN
-F 4 "CCF0747K0JKE36" H 9700 3100 60  0001 C CNN "Mfg_Part_No"
-	1    9700 3100
-	1    0    0    -1  
-$EndComp
 Connection ~ 8550 2250
 $Comp
 L R_Small R141
@@ -314,20 +299,30 @@ P 10200 2900
 F 0 "R141" V 10100 2900 50  0000 L CNN
 F 1 "470K" V 10300 2800 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 10200 2900 50  0001 C CNN
-F 3 "" H 10200 2900 50  0000 C CNN
-F 4 "CCF07470KGKE36" H 10200 2900 60  0001 C CNN "Mfg_Part_No"
+F 3 "http://www.mouser.com/ds/2/447/Yageo%20LR_MFR_2013-467719.pdf" H 10200 2900 50  0001 C CNN
+F 4 "MFR-12FTF52-470K" H 10200 2900 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 10200 2900 60  0001 C CNN "Distributor"
+F 6 "603-MFR-12FTF52-470K" H 10200 2900 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 10200 2900 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 470K OHM 1/6W 1%" H 10200 2900 60  0001 C CNN "Description"
+F 9 "Yageo" H 10200 2900 60  0001 C CNN "Manufacturer"
+F 10 "MFR-12FTF52-470K" H 10200 2900 60  0001 C CNN "Mfg_Part_No"
 	1    10200 2900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9800 2450 9700 2450
 Wire Wire Line
-	9700 2450 9700 3000
+	9700 2450 9700 2900
+Wire Wire Line
+	9700 2900 9700 3000
 Wire Wire Line
 	10100 2900 9700 2900
 Connection ~ 9700 2900
 Wire Wire Line
-	10400 2350 10950 2350
+	10400 2350 10600 2350
+Wire Wire Line
+	10600 2350 10950 2350
 Wire Wire Line
 	10600 2350 10600 2900
 Wire Wire Line
@@ -345,32 +340,10 @@ F 3 "" H 9700 3300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	9700 3300 9700 3200
-$Comp
-L R_Small R152
-U 1 1 5706F8A0
-P 9650 5450
-F 0 "R152" H 9680 5470 50  0000 L CNN
-F 1 "47K" H 9680 5410 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9650 5450 50  0001 C CNN
-F 3 "" H 9650 5450 50  0000 C CNN
-F 4 "CCF0747K0JKE36" H 9650 5450 60  0001 C CNN "Mfg_Part_No"
-	1    9650 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R151
-U 1 1 5706F8A7
-P 10150 5250
-F 0 "R151" V 10050 5250 50  0000 L CNN
-F 1 "470K" V 10250 5150 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 10150 5250 50  0001 C CNN
-F 3 "" H 10150 5250 50  0000 C CNN
-F 4 "CCF07470KGKE36" H 10150 5250 60  0001 C CNN "Mfg_Part_No"
-	1    10150 5250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	9650 4800 9650 5350
+	9650 4800 9650 5250
+Wire Wire Line
+	9650 5250 9650 5350
 Wire Wire Line
 	10050 5250 9650 5250
 Connection ~ 9650 5250
@@ -394,18 +367,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 4800 9650 4800
 Wire Wire Line
-	10400 4700 10900 4700
-$Comp
-L Header_01x03 H102
-U 1 1 57070FED
-P 11150 4150
-F 0 "H102" H 11500 4700 60  0000 C CNN
-F 1 "Header_01x03" H 11100 4800 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 11150 4150 60  0001 C CNN
-F 3 "" H 11150 4150 60  0000 C CNN
-	1    11150 4150
-	1    0    0    -1  
-$EndComp
+	10400 4700 10550 4700
+Wire Wire Line
+	10550 4700 10900 4700
 $Comp
 L GND #PWR010
 U 1 1 57071EBD
@@ -444,25 +408,19 @@ V-
 $Comp
 L CP_Small C1
 U 1 1 57074465
-P 2550 6550
-F 0 "C1" H 2560 6620 50  0000 L CNN
-F 1 "47u" H 2560 6470 50  0000 L CNN
-F 2 "w_capacitors:CP_8x11.5mm" H 2550 6550 50  0001 C CNN
-F 3 "" H 2550 6550 50  0000 C CNN
-F 4 "UVZ1J470MED" H 2550 6550 60  0001 C CNN "Mfg_Part_No"
-	1    2550 6550
-	-1   0    0    1   
-$EndComp
-$Comp
-L CP_Small C2
-U 1 1 5707446C
-P 2550 7150
-F 0 "C2" H 2560 7220 50  0000 L CNN
-F 1 "47u" H 2300 7150 50  0000 L CNN
-F 2 "w_capacitors:CP_8x11.5mm" H 2550 7150 50  0001 C CNN
-F 3 "" H 2550 7150 50  0000 C CNN
-F 4 "UVZ1J470MED" H 2550 7150 60  0001 C CNN "Mfg_Part_No"
-	1    2550 7150
+P 2550 6500
+F 0 "C1" H 2560 6570 50  0000 L CNN
+F 1 "47u" H 2560 6420 50  0000 L CNN
+F 2 "w_capacitors:CP_8x11.5mm" H 2550 6500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvz-1219460.pdf" H 2550 6500 50  0001 C CNN
+F 4 "UVZ1J470MED" H 2550 6500 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2550 6500 60  0001 C CNN "Distributor"
+F 6 "647-UVZ1J470MED" H 2550 6500 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2550 6500 60  0001 C CNN "Package"
+F 8 "Condensateurs électrolytiques aluminium – traversant 63volts 47uF 6.3x11 20% 2.5LS" H 2550 6500 60  0001 C CNN "Description"
+F 9 "Nichicon" H 2550 6500 60  0001 C CNN "Manufacturer"
+F 10 "UVZ1J470MED" H 2550 6500 60  0001 C CNN "Mfg_Part_No"
+	1    2550 6500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -471,31 +429,29 @@ U 1 1 57074473
 P 2350 6750
 F 0 "R1" V 2250 6650 50  0000 C CNN
 F 1 "100" V 2350 6750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 2280 6750 50  0001 C CNN
-F 3 "" H 2350 6750 50  0000 C CNN
-F 4 "CCF50100RFKR36" H 2350 6750 60  0001 C CNN "Mfg_Part_No"
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 6750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo%20LR_MF0_2013-775182.pdf" H 2350 6750 50  0001 C CNN
+F 4 "MF0207FTE52-100R" H 2350 6750 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2350 6750 60  0001 C CNN "Distributor"
+F 6 "603-MF0207FTE52-100R" H 2350 6750 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2350 6750 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 0.6W 1% 100 ohm 50ppm" H 2350 6750 60  0001 C CNN "Description"
+F 9 "Yageo" H 2350 6750 60  0001 C CNN "Manufacturer"
+F 10 "MF0207FTE52-100R" H 2350 6750 60  0001 C CNN "Mfg_Part_No"
 	1    2350 6750
 	0    1    1    0   
 $EndComp
-$Comp
-L R R2
-U 1 1 5707447A
-P 2350 6950
-F 0 "R2" V 2250 6950 50  0000 C CNN
-F 1 "100" V 2350 6950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 2280 6950 50  0001 C CNN
-F 3 "" H 2350 6950 50  0000 C CNN
-F 4 "CCF50100RFKR36" H 2350 6950 60  0001 C CNN "Mfg_Part_No"
-	1    2350 6950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	2500 6750 3100 6750
+	2500 6750 2550 6750
 Wire Wire Line
-	2550 6750 2550 6650
+	2550 6750 3100 6750
+Wire Wire Line
+	2550 6750 2550 6600
 Connection ~ 2550 6750
 Wire Wire Line
-	2500 6950 3100 6950
+	2500 6950 2550 6950
+Wire Wire Line
+	2550 6950 3100 6950
 Wire Wire Line
 	2550 7050 2550 6950
 Connection ~ 2550 6950
@@ -522,24 +478,13 @@ F 3 "" H 2550 6350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2550 6350 2550 6450
+	2550 6350 2550 6400
 Wire Wire Line
 	2550 7250 2550 7350
 Text GLabel 3100 6750 2    60   Input ~ 0
 V+
 Text GLabel 3100 6950 2    60   Input ~ 0
 V-
-$Comp
-L Header_01x03 H103
-U 1 1 5707CECB
-P 1200 7250
-F 0 "H103" H 1550 7800 60  0000 C CNN
-F 1 "Header_01x03" H 1150 7900 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 1200 7250 60  0001 C CNN
-F 3 "" H 1200 7250 60  0000 C CNN
-	1    1200 7250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 6950 2200 6950
 $Comp
@@ -721,5 +666,146 @@ F 9 "ALPS" H 6450 5150 60  0001 C CNN "Manufacturer"
 F 10 "RK27112A0A16" H 6450 5150 60  0001 C CNN "Mfg_Part_No"
 	1    6450 5150
 	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 H102
+U 1 1 5A0F0D7F
+P 11000 3750
+F 0 "H102" H 11000 3950 50  0000 C CNN
+F 1 "Conn_01x03" H 11000 3550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 11000 3750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11021-538004.pdf" H 11000 3750 50  0001 C CNN
+F 4 "61300311021" H 11000 3750 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 11000 3750 60  0001 C CNN "Distributor"
+F 6 "710-61300311021" H 11000 3750 60  0001 C CNN "Distributor Part #"
+F 7 "3-THT" H 11000 3750 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles WR-PHD 2.54mm Hdr 3P Single RA Gold" H 11000 3750 60  0001 C CNN "Description"
+F 9 "Wurth Electronics" H 11000 3750 60  0001 C CNN "Manufacturer"
+	1    11000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 H103
+U 1 1 5A0F12F5
+P 1350 6850
+F 0 "H103" H 1350 7050 50  0000 C CNN
+F 1 "Conn_01x03" H 1350 6650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1350 6850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11021-538004.pdf" H 1350 6850 50  0001 C CNN
+F 4 "61300311021" H 1350 6850 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 1350 6850 60  0001 C CNN "Distributor"
+F 6 "710-61300311021" H 1350 6850 60  0001 C CNN "Distributor Part #"
+F 7 "3-THT" H 1350 6850 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles WR-PHD 2.54mm Hdr 3P Single RA Gold" H 1350 6850 60  0001 C CNN "Description"
+F 9 "Wurth Electronics" H 1350 6850 60  0001 C CNN "Manufacturer"
+	1    1350 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 H101
+U 1 1 5A0F166A
+P 1000 3200
+F 0 "H101" H 1000 3400 50  0000 C CNN
+F 1 "Conn_01x03" H 1000 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1000 3200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11021-538004.pdf" H 1000 3200 50  0001 C CNN
+F 4 "61300311021" H 1000 3200 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 1000 3200 60  0001 C CNN "Distributor"
+F 6 "710-61300311021" H 1000 3200 60  0001 C CNN "Distributor Part #"
+F 7 "3-THT" H 1000 3200 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles WR-PHD 2.54mm Hdr 3P Single RA Gold" H 1000 3200 60  0001 C CNN "Description"
+F 9 "Wurth Electronics" H 1000 3200 60  0001 C CNN "Manufacturer"
+	1    1000 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R_Small R152
+U 1 1 5A1054E1
+P 9650 5450
+F 0 "R152" H 9680 5470 50  0000 L CNN
+F 1 "47K" H 9680 5410 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9650 5450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo%20LR_MFR_2013-467719.pdf" H 9650 5450 50  0001 C CNN
+F 4 "MFR-12FTF52-47K" H 9650 5450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 9650 5450 60  0001 C CNN "Distributor"
+F 6 "71-CCF0747K0JKE36" H 9650 5450 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 9650 5450 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 47K OHM 1/6W 1%" H 9650 5450 60  0001 C CNN "Description"
+F 9 "Yageo" H 9650 5450 60  0001 C CNN "Manufacturer"
+F 10 "MFR-12FTF52-47K" H 9650 5450 60  0001 C CNN "Mfg_Part_No"
+	1    9650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R142
+U 1 1 5A105D1B
+P 9700 3100
+F 0 "R142" H 9730 3120 50  0000 L CNN
+F 1 "47K" H 9730 3060 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9700 3100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo%20LR_MFR_2013-467719.pdf" H 9700 3100 50  0001 C CNN
+F 4 "MFR-12FTF52-47K" H 9700 3100 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 9700 3100 60  0001 C CNN "Distributor"
+F 6 "71-CCF0747K0JKE36" H 9700 3100 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 9700 3100 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 47K OHM 1/6W 1%" H 9700 3100 60  0001 C CNN "Description"
+F 9 "Yageo" H 9700 3100 60  0001 C CNN "Manufacturer"
+F 10 "MFR-12FTF52-47K" H 9700 3100 60  0001 C CNN "Mfg_Part_No"
+	1    9700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R151
+U 1 1 5A10615A
+P 10150 5250
+F 0 "R151" V 10050 5250 50  0000 L CNN
+F 1 "470K" V 10250 5150 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 10150 5250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo%20LR_MFR_2013-467719.pdf" H 10150 5250 50  0001 C CNN
+F 4 "MFR-12FTF52-470K" H 10150 5250 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 10150 5250 60  0001 C CNN "Distributor"
+F 6 "603-MFR-12FTF52-470K" H 10150 5250 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 10150 5250 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 470K OHM 1/6W 1%" H 10150 5250 60  0001 C CNN "Description"
+F 9 "Yageo" H 10150 5250 60  0001 C CNN "Manufacturer"
+F 10 "MFR-12FTF52-470K" H 10150 5250 60  0001 C CNN "Mfg_Part_No"
+	1    10150 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A106BBB
+P 2350 6950
+F 0 "R2" V 2250 6850 50  0000 C CNN
+F 1 "100" V 2350 6950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 6950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo%20LR_MF0_2013-775182.pdf" H 2350 6950 50  0001 C CNN
+F 4 "MF0207FTE52-100R" H 2350 6950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2350 6950 60  0001 C CNN "Distributor"
+F 6 "603-MF0207FTE52-100R" H 2350 6950 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2350 6950 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 0.6W 1% 100 ohm 50ppm" H 2350 6950 60  0001 C CNN "Description"
+F 9 "Yageo" H 2350 6950 60  0001 C CNN "Manufacturer"
+F 10 "MF0207FTE52-100R" H 2350 6950 60  0001 C CNN "Mfg_Part_No"
+	1    2350 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP_Small C2
+U 1 1 5A106FE6
+P 2550 7150
+F 0 "C2" H 2560 7220 50  0000 L CNN
+F 1 "47u" H 2350 7100 50  0000 L CNN
+F 2 "w_capacitors:CP_8x11.5mm" H 2550 7150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvz-1219460.pdf" H 2550 7150 50  0001 C CNN
+F 4 "UVZ1J470MED" H 2550 7150 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2550 7150 60  0001 C CNN "Distributor"
+F 6 "647-UVZ1J470MED" H 2550 7150 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2550 7150 60  0001 C CNN "Package"
+F 8 "Condensateurs électrolytiques aluminium – traversant 63volts 47uF 6.3x11 20% 2.5LS" H 2550 7150 60  0001 C CNN "Description"
+F 9 "Nichicon" H 2550 7150 60  0001 C CNN "Manufacturer"
+F 10 "UVZ1J470MED" H 2550 7150 60  0001 C CNN "Mfg_Part_No"
+	1    2550 7150
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -35,57 +35,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Isolator"
+Date "2017-11-17"
+Rev "A"
+Comp "D&D"
+Comment1 "Isolator module for RM4 mixer"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L C_Small C202
-U 1 1 5707D542
-P 2350 1500
-AR Path="/56D7589A/5707D542" Ref="C202"  Part="1" 
-AR Path="/56D7630B/5707D542" Ref="C302"  Part="1" 
-F 0 "C202" V 2550 1350 50  0000 L CNN
-F 1 "3n3" V 2450 1350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2350 1500 50  0001 C CNN
-F 3 "" H 2350 1500 50  0000 C CNN
-F 4 "QYX2A332JTP" H 2350 1500 60  0001 C CNN "Mfg_Part_No"
-	1    2350 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C201
-U 1 1 56D75E88
-P 1900 1500
-AR Path="/56D7589A/56D75E88" Ref="C201"  Part="1" 
-AR Path="/56D7630B/56D75E88" Ref="C301"  Part="1" 
-F 0 "C201" V 2100 1300 50  0000 L CNN
-F 1 "3n3" V 2000 1300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 1900 1500 50  0001 C CNN
-F 3 "" H 1900 1500 50  0000 C CNN
-F 4 "QYX2A332JTP" H 1900 1500 60  0001 C CNN "Mfg_Part_No"
-	1    1900 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L R R203
-U 1 1 56D75E90
-P 2650 1750
-AR Path="/56D7589A/56D75E90" Ref="R203"  Part="1" 
-AR Path="/56D7630B/56D75E90" Ref="R303"  Part="1" 
-F 0 "R203" V 2730 1750 50  0000 C CNN
-F 1 "22K" V 2650 1750 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2580 1750 50  0001 C CNN
-F 3 "" H 2650 1750 50  0000 C CNN
-F 4 "CCF5022K0JKR36" H 2650 1750 60  0001 C CNN "Mfg_Part_No"
-	1    2650 1750
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R201
 U 1 1 56D75E97
@@ -95,8 +53,14 @@ AR Path="/56D7630B/56D75E97" Ref="R301"  Part="1"
 F 0 "R201" V 2730 1000 50  0000 C CNN
 F 1 "11K" V 2650 1000 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2580 1000 50  0001 C CNN
-F 3 "" H 2650 1000 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 2650 1000 60  0001 C CNN "Mfg_Part_No"
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2650 1000 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 2650 1000 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2650 1000 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 2650 1000 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2650 1000 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 2650 1000 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2650 1000 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 2650 1000 60  0001 C CNN "Mfg_Part_No"
 	1    2650 1000
 	0    1    1    0   
 $EndComp
@@ -114,62 +78,6 @@ F 3 "" H 2650 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C204
-U 1 1 5707D547
-P 4950 1500
-AR Path="/56D7589A/5707D547" Ref="C204"  Part="1" 
-AR Path="/56D7630B/5707D547" Ref="C304"  Part="1" 
-F 0 "C204" V 5150 1350 50  0000 L CNN
-F 1 "3n3" V 5050 1350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4950 1500 50  0001 C CNN
-F 3 "" H 4950 1500 50  0000 C CNN
-F 4 "QYX2A332JTP" H 4950 1500 60  0001 C CNN "Mfg_Part_No"
-	1    4950 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C203
-U 1 1 5707D548
-P 4500 1500
-AR Path="/56D7589A/5707D548" Ref="C203"  Part="1" 
-AR Path="/56D7630B/5707D548" Ref="C303"  Part="1" 
-F 0 "C203" V 4700 1300 50  0000 L CNN
-F 1 "3n3" V 4600 1300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4500 1500 50  0001 C CNN
-F 3 "" H 4500 1500 50  0000 C CNN
-F 4 "QYX2A332JTP" H 4500 1500 60  0001 C CNN "Mfg_Part_No"
-	1    4500 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L R R204
-U 1 1 5707D549
-P 5250 1750
-AR Path="/56D7589A/5707D549" Ref="R204"  Part="1" 
-AR Path="/56D7630B/5707D549" Ref="R304"  Part="1" 
-F 0 "R204" V 5330 1750 50  0000 C CNN
-F 1 "22K" V 5250 1750 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5180 1750 50  0001 C CNN
-F 3 "" H 5250 1750 50  0000 C CNN
-F 4 "CCF5022K0JKR36" H 5250 1750 60  0001 C CNN "Mfg_Part_No"
-	1    5250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R202
-U 1 1 5707D54A
-P 5250 1000
-AR Path="/56D7589A/5707D54A" Ref="R202"  Part="1" 
-AR Path="/56D7630B/5707D54A" Ref="R302"  Part="1" 
-F 0 "R202" V 5330 1000 50  0000 C CNN
-F 1 "11K" V 5250 1000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5180 1000 50  0001 C CNN
-F 3 "" H 5250 1000 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 5250 1000 60  0001 C CNN "Mfg_Part_No"
-	1    5250 1000
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR015
 U 1 1 5707D54B
 P 5250 1900
@@ -183,62 +91,6 @@ F 3 "" H 5250 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R205
-U 1 1 5707D54C
-P 1900 3050
-AR Path="/56D7589A/5707D54C" Ref="R205"  Part="1" 
-AR Path="/56D7630B/5707D54C" Ref="R305"  Part="1" 
-F 0 "R205" V 1980 3050 50  0000 C CNN
-F 1 "11K" V 1900 3050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1830 3050 50  0001 C CNN
-F 3 "" H 1900 3050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 1900 3050 60  0001 C CNN "Mfg_Part_No"
-	1    1900 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R206
-U 1 1 5707D54D
-P 2400 3050
-AR Path="/56D7589A/5707D54D" Ref="R206"  Part="1" 
-AR Path="/56D7630B/5707D54D" Ref="R306"  Part="1" 
-F 0 "R206" V 2480 3050 50  0000 C CNN
-F 1 "11K" V 2400 3050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2330 3050 50  0001 C CNN
-F 3 "" H 2400 3050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 2400 3050 60  0001 C CNN "Mfg_Part_No"
-	1    2400 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C209
-U 1 1 5707D54E
-P 2650 3250
-AR Path="/56D7589A/5707D54E" Ref="C209"  Part="1" 
-AR Path="/56D7630B/5707D54E" Ref="C309"  Part="1" 
-F 0 "C209" H 2350 3050 50  0000 L CNN
-F 1 "3n3" H 2300 3150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2650 3250 50  0001 C CNN
-F 3 "" H 2650 3250 50  0000 C CNN
-F 4 "QYX2A332JTP" H 2650 3250 60  0001 C CNN "Mfg_Part_No"
-	1    2650 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C205
-U 1 1 56D75EED
-P 2800 2450
-AR Path="/56D7589A/56D75EED" Ref="C205"  Part="1" 
-AR Path="/56D7630B/56D75EED" Ref="C305"  Part="1" 
-F 0 "C205" V 2700 2250 50  0000 L CNN
-F 1 "3n3" V 2600 2250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2800 2450 50  0001 C CNN
-F 3 "" H 2800 2450 50  0000 C CNN
-F 4 "QYX2A332JTP" H 2800 2450 60  0001 C CNN "Mfg_Part_No"
-	1    2800 2450
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR016
 U 1 1 56D75EF4
 P 2650 3350
@@ -250,20 +102,6 @@ F 2 "" H 2650 3350 50  0000 C CNN
 F 3 "" H 2650 3350 50  0000 C CNN
 	1    2650 3350
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C207
-U 1 1 56D75EFA
-P 2800 2650
-AR Path="/56D7589A/56D75EFA" Ref="C207"  Part="1" 
-AR Path="/56D7630B/56D75EFA" Ref="C307"  Part="1" 
-F 0 "C207" V 2800 2250 50  0000 L CNN
-F 1 "3n3" V 2900 2250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2800 2650 50  0001 C CNN
-F 3 "" H 2800 2650 50  0000 C CNN
-F 4 "QYX2A332JTP" H 2800 2650 60  0001 C CNN "Mfg_Part_No"
-	1    2800 2650
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2000 1500 2250 1500
@@ -329,62 +167,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 2450 3750 2450
 $Comp
-L R R207
-U 1 1 5707D552
-P 4500 3050
-AR Path="/56D7589A/5707D552" Ref="R207"  Part="1" 
-AR Path="/56D7630B/5707D552" Ref="R307"  Part="1" 
-F 0 "R207" V 4580 3050 50  0000 C CNN
-F 1 "11K" V 4500 3050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4430 3050 50  0001 C CNN
-F 3 "" H 4500 3050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 4500 3050 60  0001 C CNN "Mfg_Part_No"
-	1    4500 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R208
-U 1 1 5707D553
-P 5000 3050
-AR Path="/56D7589A/5707D553" Ref="R208"  Part="1" 
-AR Path="/56D7630B/5707D553" Ref="R308"  Part="1" 
-F 0 "R208" V 5080 3050 50  0000 C CNN
-F 1 "11K" V 5000 3050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4930 3050 50  0001 C CNN
-F 3 "" H 5000 3050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 5000 3050 60  0001 C CNN "Mfg_Part_No"
-	1    5000 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C210
-U 1 1 5707D554
-P 5250 3250
-AR Path="/56D7589A/5707D554" Ref="C210"  Part="1" 
-AR Path="/56D7630B/5707D554" Ref="C310"  Part="1" 
-F 0 "C210" H 4950 3050 50  0000 L CNN
-F 1 "3n3" H 4900 3150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5250 3250 50  0001 C CNN
-F 3 "" H 5250 3250 50  0000 C CNN
-F 4 "QYX2A332JTP" H 5250 3250 60  0001 C CNN "Mfg_Part_No"
-	1    5250 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C206
-U 1 1 5707D555
-P 5400 2450
-AR Path="/56D7589A/5707D555" Ref="C206"  Part="1" 
-AR Path="/56D7630B/5707D555" Ref="C306"  Part="1" 
-F 0 "C206" V 5300 2250 50  0000 L CNN
-F 1 "3n3" V 5200 2250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5400 2450 50  0001 C CNN
-F 3 "" H 5400 2450 50  0000 C CNN
-F 4 "QYX2A332JTP" H 5400 2450 60  0001 C CNN "Mfg_Part_No"
-	1    5400 2450
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR017
 U 1 1 5707D556
 P 5250 3350
@@ -396,20 +178,6 @@ F 2 "" H 5250 3350 50  0000 C CNN
 F 3 "" H 5250 3350 50  0000 C CNN
 	1    5250 3350
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C208
-U 1 1 56D75F4E
-P 5400 2650
-AR Path="/56D7589A/56D75F4E" Ref="C208"  Part="1" 
-AR Path="/56D7630B/56D75F4E" Ref="C308"  Part="1" 
-F 0 "C208" V 5400 2250 50  0000 L CNN
-F 1 "3n3" V 5500 2250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5400 2650 50  0001 C CNN
-F 3 "" H 5400 2650 50  0000 C CNN
-F 4 "QYX2A332JTP" H 5400 2650 60  0001 C CNN "Mfg_Part_No"
-	1    5400 2650
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4650 3050 4850 3050
@@ -439,20 +207,6 @@ Wire Wire Line
 	4050 3050 4050 3150
 Connection ~ 3750 3150
 $Comp
-L C_Small C212
-U 1 1 5707D558
-P 2500 4450
-AR Path="/56D7589A/5707D558" Ref="C212"  Part="1" 
-AR Path="/56D7630B/5707D558" Ref="C312"  Part="1" 
-F 0 "C212" V 2700 4300 50  0000 L CNN
-F 1 "33n" V 2600 4300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2500 4450 50  0001 C CNN
-F 3 "" H 2500 4450 50  0000 C CNN
-F 4 "QYX1H333KTP" H 2500 4450 60  0001 C CNN "Mfg_Part_No"
-	1    2500 4450
-	0    1    1    0   
-$EndComp
-$Comp
 L C_Small C211
 U 1 1 56D75F73
 P 2050 4450
@@ -461,37 +215,15 @@ AR Path="/56D7630B/56D75F73" Ref="C311"  Part="1"
 F 0 "C211" V 2250 4250 50  0000 L CNN
 F 1 "33n" V 2150 4250 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2050 4450 50  0001 C CNN
-F 3 "" H 2050 4450 50  0000 C CNN
-F 4 "QYX1H333KTP" H 2050 4450 60  0001 C CNN "Mfg_Part_No"
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2050 4450 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 2050 4450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2050 4450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 2050 4450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2050 4450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 2050 4450 60  0001 C CNN "Description"
+F 9 "Kemet" H 2050 4450 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 2050 4450 60  0001 C CNN "Mfg_Part_No"
 	1    2050 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L R R211
-U 1 1 56D75F7B
-P 2800 4700
-AR Path="/56D7589A/56D75F7B" Ref="R211"  Part="1" 
-AR Path="/56D7630B/56D75F7B" Ref="R311"  Part="1" 
-F 0 "R211" V 2880 4700 50  0000 C CNN
-F 1 "22K" V 2800 4700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2730 4700 50  0001 C CNN
-F 3 "" H 2800 4700 50  0000 C CNN
-F 4 "CCF5022K0JKR36" H 2800 4700 60  0001 C CNN "Mfg_Part_No"
-	1    2800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R209
-U 1 1 56D75F82
-P 2800 3950
-AR Path="/56D7589A/56D75F82" Ref="R209"  Part="1" 
-AR Path="/56D7630B/56D75F82" Ref="R309"  Part="1" 
-F 0 "R209" V 2880 3950 50  0000 C CNN
-F 1 "11K" V 2800 3950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2730 3950 50  0001 C CNN
-F 3 "" H 2800 3950 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 2800 3950 60  0001 C CNN "Mfg_Part_No"
-	1    2800 3950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -508,62 +240,6 @@ F 3 "" H 2800 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C214
-U 1 1 5707D55D
-P 5100 4450
-AR Path="/56D7589A/5707D55D" Ref="C214"  Part="1" 
-AR Path="/56D7630B/5707D55D" Ref="C314"  Part="1" 
-F 0 "C214" V 5300 4300 50  0000 L CNN
-F 1 "33n" V 5200 4300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5100 4450 50  0001 C CNN
-F 3 "" H 5100 4450 50  0000 C CNN
-F 4 "QYX1H333KTP" H 5100 4450 60  0001 C CNN "Mfg_Part_No"
-	1    5100 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C213
-U 1 1 5707D55E
-P 4650 4450
-AR Path="/56D7589A/5707D55E" Ref="C213"  Part="1" 
-AR Path="/56D7630B/5707D55E" Ref="C313"  Part="1" 
-F 0 "C213" V 4850 4250 50  0000 L CNN
-F 1 "33n" V 4750 4250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4650 4450 50  0001 C CNN
-F 3 "" H 4650 4450 50  0000 C CNN
-F 4 "QYX1H333KTP" H 4650 4450 60  0001 C CNN "Mfg_Part_No"
-	1    4650 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L R R212
-U 1 1 5707D55F
-P 5400 4700
-AR Path="/56D7589A/5707D55F" Ref="R212"  Part="1" 
-AR Path="/56D7630B/5707D55F" Ref="R312"  Part="1" 
-F 0 "R212" V 5480 4700 50  0000 C CNN
-F 1 "22K" V 5400 4700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 4700 50  0001 C CNN
-F 3 "" H 5400 4700 50  0000 C CNN
-F 4 "CCF5022K0JKR36" H 5400 4700 60  0001 C CNN "Mfg_Part_No"
-	1    5400 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R210
-U 1 1 5707D560
-P 5400 3950
-AR Path="/56D7589A/5707D560" Ref="R210"  Part="1" 
-AR Path="/56D7630B/5707D560" Ref="R310"  Part="1" 
-F 0 "R210" V 5480 3950 50  0000 C CNN
-F 1 "11K" V 5400 3950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 3950 50  0001 C CNN
-F 3 "" H 5400 3950 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 5400 3950 60  0001 C CNN "Mfg_Part_No"
-	1    5400 3950
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR019
 U 1 1 5707D561
 P 5400 4850
@@ -577,62 +253,6 @@ F 3 "" H 5400 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R213
-U 1 1 5707D562
-P 2050 6050
-AR Path="/56D7589A/5707D562" Ref="R213"  Part="1" 
-AR Path="/56D7630B/5707D562" Ref="R313"  Part="1" 
-F 0 "R213" V 2130 6050 50  0000 C CNN
-F 1 "11K" V 2050 6050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1980 6050 50  0001 C CNN
-F 3 "" H 2050 6050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 2050 6050 60  0001 C CNN "Mfg_Part_No"
-	1    2050 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R214
-U 1 1 56D75FCA
-P 2550 6050
-AR Path="/56D7589A/56D75FCA" Ref="R214"  Part="1" 
-AR Path="/56D7630B/56D75FCA" Ref="R314"  Part="1" 
-F 0 "R214" V 2630 6050 50  0000 C CNN
-F 1 "11K" V 2550 6050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2480 6050 50  0001 C CNN
-F 3 "" H 2550 6050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 2550 6050 60  0001 C CNN "Mfg_Part_No"
-	1    2550 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C219
-U 1 1 5707D564
-P 2800 6250
-AR Path="/56D7589A/5707D564" Ref="C219"  Part="1" 
-AR Path="/56D7630B/5707D564" Ref="C319"  Part="1" 
-F 0 "C219" H 2500 6050 50  0000 L CNN
-F 1 "33n" H 2450 6150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2800 6250 50  0001 C CNN
-F 3 "" H 2800 6250 50  0000 C CNN
-F 4 "QYX1H333KTP" H 2800 6250 60  0001 C CNN "Mfg_Part_No"
-	1    2800 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C215
-U 1 1 5707D565
-P 2950 5450
-AR Path="/56D7589A/5707D565" Ref="C215"  Part="1" 
-AR Path="/56D7630B/5707D565" Ref="C315"  Part="1" 
-F 0 "C215" V 2850 5250 50  0000 L CNN
-F 1 "33n" V 2750 5250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2950 5450 50  0001 C CNN
-F 3 "" H 2950 5450 50  0000 C CNN
-F 4 "QYX1H333KTP" H 2950 5450 60  0001 C CNN "Mfg_Part_No"
-	1    2950 5450
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR020
 U 1 1 5707D566
 P 2800 6350
@@ -644,20 +264,6 @@ F 2 "" H 2800 6350 50  0000 C CNN
 F 3 "" H 2800 6350 50  0000 C CNN
 	1    2800 6350
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C217
-U 1 1 5707D567
-P 2950 5650
-AR Path="/56D7589A/5707D567" Ref="C217"  Part="1" 
-AR Path="/56D7630B/5707D567" Ref="C317"  Part="1" 
-F 0 "C217" V 2950 5250 50  0000 L CNN
-F 1 "33n" V 3050 5250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2950 5650 50  0001 C CNN
-F 3 "" H 2950 5650 50  0000 C CNN
-F 4 "QYX1H333KTP" H 2950 5650 60  0001 C CNN "Mfg_Part_No"
-	1    2950 5650
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2150 4450 2400 4450
@@ -723,62 +329,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 5450 3900 5450
 $Comp
-L R R215
-U 1 1 5707D568
-P 4650 6050
-AR Path="/56D7589A/5707D568" Ref="R215"  Part="1" 
-AR Path="/56D7630B/5707D568" Ref="R315"  Part="1" 
-F 0 "R215" V 4730 6050 50  0000 C CNN
-F 1 "11K" V 4650 6050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4580 6050 50  0001 C CNN
-F 3 "" H 4650 6050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 4650 6050 60  0001 C CNN "Mfg_Part_No"
-	1    4650 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R216
-U 1 1 56D7601E
-P 5150 6050
-AR Path="/56D7589A/56D7601E" Ref="R216"  Part="1" 
-AR Path="/56D7630B/56D7601E" Ref="R316"  Part="1" 
-F 0 "R216" V 5230 6050 50  0000 C CNN
-F 1 "11K" V 5150 6050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5080 6050 50  0001 C CNN
-F 3 "" H 5150 6050 50  0000 C CNN
-F 4 "CCF5011K0FKR36" H 5150 6050 60  0001 C CNN "Mfg_Part_No"
-	1    5150 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C220
-U 1 1 56D76025
-P 5400 6250
-AR Path="/56D7589A/56D76025" Ref="C220"  Part="1" 
-AR Path="/56D7630B/56D76025" Ref="C320"  Part="1" 
-F 0 "C220" H 5100 6050 50  0000 L CNN
-F 1 "33n" H 5050 6150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5400 6250 50  0001 C CNN
-F 3 "" H 5400 6250 50  0000 C CNN
-F 4 "QYX1H333KTP" H 5400 6250 60  0001 C CNN "Mfg_Part_No"
-	1    5400 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C216
-U 1 1 56D7602C
-P 5550 5450
-AR Path="/56D7589A/56D7602C" Ref="C216"  Part="1" 
-AR Path="/56D7630B/56D7602C" Ref="C316"  Part="1" 
-F 0 "C216" V 5450 5250 50  0000 L CNN
-F 1 "33n" V 5350 5250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5550 5450 50  0001 C CNN
-F 3 "" H 5550 5450 50  0000 C CNN
-F 4 "QYX1H333KTP" H 5550 5450 60  0001 C CNN "Mfg_Part_No"
-	1    5550 5450
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR021
 U 1 1 5707D56C
 P 5400 6350
@@ -790,20 +340,6 @@ F 2 "" H 5400 6350 50  0000 C CNN
 F 3 "" H 5400 6350 50  0000 C CNN
 	1    5400 6350
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C218
-U 1 1 56D76039
-P 5550 5650
-AR Path="/56D7589A/56D76039" Ref="C218"  Part="1" 
-AR Path="/56D7630B/56D76039" Ref="C318"  Part="1" 
-F 0 "C218" V 5550 5250 50  0000 L CNN
-F 1 "33n" V 5650 5250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5550 5650 50  0001 C CNN
-F 3 "" H 5550 5650 50  0000 C CNN
-F 4 "QYX1H333KTP" H 5550 5650 60  0001 C CNN "Mfg_Part_No"
-	1    5550 5650
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4800 6050 5000 6050
@@ -1089,5 +625,617 @@ F 8 "Amplificateurs opérationnels - Amplis-Op Dual Low Noise" H 6000 6150 60  0
 F 9 "Texas Instruments" H 6000 6150 60  0001 C CNN "Manufacturer"
 	2    6000 6150
 	1    0    0    -1  
+$EndComp
+$Comp
+L R R202
+U 1 1 5A0F215A
+P 5250 1000
+F 0 "R202" V 5330 1000 50  0000 C CNN
+F 1 "11K" V 5250 1000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5180 1000 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 5250 1000 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 5250 1000 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5250 1000 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 5250 1000 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 5250 1000 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 5250 1000 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 5250 1000 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 5250 1000 60  0001 C CNN "Mfg_Part_No"
+	1    5250 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R205
+U 1 1 5A0F241E
+P 1900 3050
+F 0 "R205" V 1980 3050 50  0000 C CNN
+F 1 "11K" V 1900 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1830 3050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 1900 3050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 1900 3050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 1900 3050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 1900 3050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 1900 3050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 1900 3050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 1900 3050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 1900 3050 60  0001 C CNN "Mfg_Part_No"
+	1    1900 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R206
+U 1 1 5A0F266A
+P 2400 3050
+F 0 "R206" V 2480 3050 50  0000 C CNN
+F 1 "11K" V 2400 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2330 3050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2400 3050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 2400 3050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2400 3050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 2400 3050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2400 3050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 2400 3050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2400 3050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 2400 3050 60  0001 C CNN "Mfg_Part_No"
+	1    2400 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R207
+U 1 1 5A0F2709
+P 4500 3050
+F 0 "R207" V 4580 3050 50  0000 C CNN
+F 1 "11K" V 4500 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4430 3050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 4500 3050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 4500 3050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 4500 3050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 4500 3050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 4500 3050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 4500 3050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 4500 3050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 4500 3050 60  0001 C CNN "Mfg_Part_No"
+	1    4500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R208
+U 1 1 5A0F28BE
+P 5000 3050
+F 0 "R208" V 5080 3050 50  0000 C CNN
+F 1 "11K" V 5000 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4930 3050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 5000 3050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 5000 3050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5000 3050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 5000 3050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 5000 3050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 5000 3050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 5000 3050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 5000 3050 60  0001 C CNN "Mfg_Part_No"
+	1    5000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R213
+U 1 1 5A0F2F4C
+P 2050 6050
+F 0 "R213" V 2130 6050 50  0000 C CNN
+F 1 "11K" V 2050 6050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1980 6050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2050 6050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 2050 6050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2050 6050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 2050 6050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2050 6050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 2050 6050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2050 6050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 2050 6050 60  0001 C CNN "Mfg_Part_No"
+	1    2050 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R209
+U 1 1 5A0F2FFB
+P 2800 3950
+F 0 "R209" V 2880 3950 50  0000 C CNN
+F 1 "11K" V 2800 3950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2730 3950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2800 3950 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 2800 3950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2800 3950 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 2800 3950 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2800 3950 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 2800 3950 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2800 3950 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 2800 3950 60  0001 C CNN "Mfg_Part_No"
+	1    2800 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R210
+U 1 1 5A0F3273
+P 5400 3950
+F 0 "R210" V 5480 3950 50  0000 C CNN
+F 1 "11K" V 5400 3950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 3950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 5400 3950 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 5400 3950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5400 3950 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 5400 3950 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 5400 3950 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 5400 3950 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 5400 3950 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 5400 3950 60  0001 C CNN "Mfg_Part_No"
+	1    5400 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R214
+U 1 1 5A0F3594
+P 2550 6050
+F 0 "R214" V 2650 6050 50  0000 C CNN
+F 1 "11K" V 2550 6050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2480 6050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2550 6050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 2550 6050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2550 6050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 2550 6050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2550 6050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 2550 6050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2550 6050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 2550 6050 60  0001 C CNN "Mfg_Part_No"
+	1    2550 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R215
+U 1 1 5A0F39B2
+P 4650 6050
+F 0 "R215" V 4730 6050 50  0000 C CNN
+F 1 "11K" V 4650 6050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4580 6050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 4650 6050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 4650 6050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 4650 6050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 4650 6050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 4650 6050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 4650 6050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 4650 6050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 4650 6050 60  0001 C CNN "Mfg_Part_No"
+	1    4650 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R216
+U 1 1 5A0F3B8B
+P 5150 6050
+F 0 "R216" V 5230 6050 50  0000 C CNN
+F 1 "11K" V 5150 6050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5080 6050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 5150 6050 50  0001 C CNN
+F 4 "CCF5011K0FKR36" H 5150 6050 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5150 6050 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-11K" H 5150 6050 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 5150 6050 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 11Kohms 1%" H 5150 6050 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 5150 6050 60  0001 C CNN "Manufacturer"
+F 10 "CCF5011K0FKR36" H 5150 6050 60  0001 C CNN "Mfg_Part_No"
+	1    5150 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C201
+U 1 1 5A0F9F64
+P 1900 1500
+F 0 "C201" V 2100 1300 50  0000 L CNN
+F 1 "3n3" V 2000 1300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 1900 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 1900 1500 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 1900 1500 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 1900 1500 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 1900 1500 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 1900 1500 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 1900 1500 60  0001 C CNN "Description"
+F 9 "Kemet" H 1900 1500 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 1900 1500 60  0001 C CNN "Mfg_Part_No"
+	1    1900 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C202
+U 1 1 5A0FA1EF
+P 2350 1500
+F 0 "C202" V 2550 1300 50  0000 L CNN
+F 1 "3n3" V 2450 1300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2350 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2350 1500 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 2350 1500 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2350 1500 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 2350 1500 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2350 1500 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 2350 1500 60  0001 C CNN "Description"
+F 9 "Kemet" H 2350 1500 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 2350 1500 60  0001 C CNN "Mfg_Part_No"
+	1    2350 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C204
+U 1 1 5A0FA452
+P 4950 1500
+F 0 "C204" V 5150 1300 50  0000 L CNN
+F 1 "3n3" V 5050 1300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4950 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 4950 1500 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 4950 1500 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 4950 1500 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 4950 1500 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 4950 1500 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 4950 1500 60  0001 C CNN "Description"
+F 9 "Kemet" H 4950 1500 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 4950 1500 60  0001 C CNN "Mfg_Part_No"
+	1    4950 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C203
+U 1 1 5A0FA793
+P 4500 1500
+F 0 "C203" V 4700 1300 50  0000 L CNN
+F 1 "3n3" V 4600 1300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4500 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 4500 1500 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 4500 1500 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 4500 1500 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 4500 1500 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 4500 1500 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 4500 1500 60  0001 C CNN "Description"
+F 9 "Kemet" H 4500 1500 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 4500 1500 60  0001 C CNN "Mfg_Part_No"
+	1    4500 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C208
+U 1 1 5A0FAA06
+P 5400 2650
+F 0 "C208" V 5600 2450 50  0000 L CNN
+F 1 "3n3" V 5500 2450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5400 2650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5400 2650 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 5400 2650 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5400 2650 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 5400 2650 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5400 2650 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 5400 2650 60  0001 C CNN "Description"
+F 9 "Kemet" H 5400 2650 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 5400 2650 60  0001 C CNN "Mfg_Part_No"
+	1    5400 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C206
+U 1 1 5A0FABB1
+P 5400 2450
+F 0 "C206" V 5600 2250 50  0000 L CNN
+F 1 "3n3" V 5500 2250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5400 2450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5400 2450 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 5400 2450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5400 2450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 5400 2450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5400 2450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 5400 2450 60  0001 C CNN "Description"
+F 9 "Kemet" H 5400 2450 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 5400 2450 60  0001 C CNN "Mfg_Part_No"
+	1    5400 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C207
+U 1 1 5A0FAF31
+P 2800 2650
+F 0 "C207" V 3000 2450 50  0000 L CNN
+F 1 "3n3" V 2900 2450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2800 2650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2800 2650 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 2800 2650 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2800 2650 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 2800 2650 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2800 2650 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 2800 2650 60  0001 C CNN "Description"
+F 9 "Kemet" H 2800 2650 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 2800 2650 60  0001 C CNN "Mfg_Part_No"
+	1    2800 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C205
+U 1 1 5A0FB1C3
+P 2800 2450
+F 0 "C205" V 3000 2250 50  0000 L CNN
+F 1 "3n3" V 2900 2250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2800 2450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2800 2450 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 2800 2450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2800 2450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 2800 2450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2800 2450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 2800 2450 60  0001 C CNN "Description"
+F 9 "Kemet" H 2800 2450 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 2800 2450 60  0001 C CNN "Mfg_Part_No"
+	1    2800 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R203
+U 1 1 5A0FC8EF
+P 2650 1750
+F 0 "R203" V 2730 1750 50  0000 C CNN
+F 1 "22K" V 2650 1750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2580 1750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2650 1750 50  0001 C CNN
+F 4 "CCF5022K0JKR36" H 2650 1750 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2650 1750 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-J-22K" H 2650 1750 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2650 1750 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 22Kohms 5%" H 2650 1750 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2650 1750 60  0001 C CNN "Manufacturer"
+F 10 "CCF5022K0JKR36" H 2650 1750 60  0001 C CNN "Mfg_Part_No"
+	1    2650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 5A0FCAB3
+P 5250 1750
+F 0 "R204" V 5330 1750 50  0000 C CNN
+F 1 "22K" V 5250 1750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5180 1750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 5250 1750 50  0001 C CNN
+F 4 "CCF5022K0JKR36" H 5250 1750 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5250 1750 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-J-22K" H 5250 1750 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 5250 1750 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 22Kohms 5%" H 5250 1750 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 5250 1750 60  0001 C CNN "Manufacturer"
+F 10 "CCF5022K0JKR36" H 5250 1750 60  0001 C CNN "Mfg_Part_No"
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R211
+U 1 1 5A0FCFB9
+P 2800 4700
+F 0 "R211" V 2880 4700 50  0000 C CNN
+F 1 "22K" V 2800 4700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2730 4700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2800 4700 50  0001 C CNN
+F 4 "CCF5022K0JKR36" H 2800 4700 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2800 4700 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-J-22K" H 2800 4700 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 2800 4700 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 22Kohms 5%" H 2800 4700 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 2800 4700 60  0001 C CNN "Manufacturer"
+F 10 "CCF5022K0JKR36" H 2800 4700 60  0001 C CNN "Mfg_Part_No"
+	1    2800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R212
+U 1 1 5A0FD44C
+P 5400 4700
+F 0 "R212" V 5480 4700 50  0000 C CNN
+F 1 "22K" V 5400 4700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5330 4700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 5400 4700 50  0001 C CNN
+F 4 "CCF5022K0JKR36" H 5400 4700 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5400 4700 60  0001 C CNN "Distributor"
+F 6 "71-CCF50-J-22K" H 5400 4700 60  0001 C CNN "Distributor Part #"
+F 7 "DIN0204" H 5400 4700 60  0001 C CNN "Package"
+F 8 "Résistances à couche métallique - Trou traversant 1/3watts 22Kohms 5%" H 5400 4700 60  0001 C CNN "Description"
+F 9 "Vishay / Dale" H 5400 4700 60  0001 C CNN "Manufacturer"
+F 10 "CCF5022K0JKR36" H 5400 4700 60  0001 C CNN "Mfg_Part_No"
+	1    5400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C212
+U 1 1 5A0FDAD3
+P 2500 4450
+F 0 "C212" V 2700 4250 50  0000 L CNN
+F 1 "33n" V 2600 4250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2500 4450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2500 4450 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 2500 4450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2500 4450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 2500 4450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2500 4450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 2500 4450 60  0001 C CNN "Description"
+F 9 "Kemet" H 2500 4450 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 2500 4450 60  0001 C CNN "Mfg_Part_No"
+	1    2500 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C213
+U 1 1 5A0FDEE4
+P 4650 4450
+F 0 "C213" V 4850 4250 50  0000 L CNN
+F 1 "33n" V 4750 4250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4650 4450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 4650 4450 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 4650 4450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 4650 4450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 4650 4450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 4650 4450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 4650 4450 60  0001 C CNN "Description"
+F 9 "Kemet" H 4650 4450 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 4650 4450 60  0001 C CNN "Mfg_Part_No"
+	1    4650 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C214
+U 1 1 5A0FE08A
+P 5100 4450
+F 0 "C214" V 5300 4250 50  0000 L CNN
+F 1 "33n" V 5200 4250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5100 4450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5100 4450 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 5100 4450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5100 4450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 5100 4450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5100 4450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 5100 4450 60  0001 C CNN "Description"
+F 9 "Kemet" H 5100 4450 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 5100 4450 60  0001 C CNN "Mfg_Part_No"
+	1    5100 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C217
+U 1 1 5A0FE433
+P 2950 5650
+F 0 "C217" V 3150 5450 50  0000 L CNN
+F 1 "33n" V 3050 5450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2950 5650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2950 5650 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 2950 5650 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2950 5650 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 2950 5650 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2950 5650 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 2950 5650 60  0001 C CNN "Description"
+F 9 "Kemet" H 2950 5650 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 2950 5650 60  0001 C CNN "Mfg_Part_No"
+	1    2950 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C215
+U 1 1 5A0FE4DC
+P 2950 5450
+F 0 "C215" V 3150 5250 50  0000 L CNN
+F 1 "33n" V 3050 5250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2950 5450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2950 5450 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 2950 5450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2950 5450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 2950 5450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2950 5450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 2950 5450 60  0001 C CNN "Description"
+F 9 "Kemet" H 2950 5450 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 2950 5450 60  0001 C CNN "Mfg_Part_No"
+	1    2950 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C219
+U 1 1 5A0FE728
+P 2800 6250
+F 0 "C219" H 2900 6300 50  0000 L CNN
+F 1 "33n" H 2900 6400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2800 6250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2800 6250 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 2800 6250 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2800 6250 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 2800 6250 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2800 6250 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 2800 6250 60  0001 C CNN "Description"
+F 9 "Kemet" H 2800 6250 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 2800 6250 60  0001 C CNN "Mfg_Part_No"
+	1    2800 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C220
+U 1 1 5A0FEDCD
+P 5400 6250
+F 0 "C220" H 5500 6300 50  0000 L CNN
+F 1 "33n" H 5500 6400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5400 6250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5400 6250 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 5400 6250 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5400 6250 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 5400 6250 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5400 6250 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 5400 6250 60  0001 C CNN "Description"
+F 9 "Kemet" H 5400 6250 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 5400 6250 60  0001 C CNN "Mfg_Part_No"
+	1    5400 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C216
+U 1 1 5A0FF2E8
+P 5550 5450
+F 0 "C216" V 5750 5250 50  0000 L CNN
+F 1 "33n" V 5650 5250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5550 5450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5550 5450 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 5550 5450 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5550 5450 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 5550 5450 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5550 5450 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 5550 5450 60  0001 C CNN "Description"
+F 9 "Kemet" H 5550 5450 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 5550 5450 60  0001 C CNN "Mfg_Part_No"
+	1    5550 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C218
+U 1 1 5A0FF763
+P 5550 5650
+F 0 "C218" V 5750 5450 50  0000 L CNN
+F 1 "33n" V 5650 5450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5550 5650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5550 5650 50  0001 C CNN
+F 4 "R82EC2330AA50J" H 5550 5650 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5550 5650 60  0001 C CNN "Distributor"
+F 6 "80-R82EC2330AA50J" H 5550 5650 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5550 5650 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts .033uF 5%" H 5550 5650 60  0001 C CNN "Description"
+F 9 "Kemet" H 5550 5650 60  0001 C CNN "Manufacturer"
+F 10 "R82EC2330AA50J" H 5550 5650 60  0001 C CNN "Mfg_Part_No"
+	1    5550 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C209
+U 1 1 5A104A5E
+P 2650 3250
+F 0 "C209" H 2750 3400 50  0000 L CNN
+F 1 "3n3" H 2750 3300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2650 3250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 2650 3250 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 2650 3250 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 2650 3250 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 2650 3250 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 2650 3250 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 2650 3250 60  0001 C CNN "Description"
+F 9 "Kemet" H 2650 3250 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 2650 3250 60  0001 C CNN "Mfg_Part_No"
+	1    2650 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C210
+U 1 1 5A104B54
+P 5250 3250
+F 0 "C210" H 5350 3400 50  0000 L CNN
+F 1 "3n3" H 5350 3300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5250 3250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5250 3250 50  0001 C CNN
+F 4 "R82EC1330JE50J" H 5250 3250 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 5250 3250 60  0001 C CNN "Distributor"
+F 6 "80-R82EC1330JE50J" H 5250 3250 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 5250 3250 60  0001 C CNN "Package"
+F 8 "Condensateurs à film 100volts 3300pF 5%" H 5250 3250 60  0001 C CNN "Description"
+F 9 "Kemet" H 5250 3250 60  0001 C CNN "Manufacturer"
+F 10 "QYX2A332JTP" H 5250 3250 60  0001 C CNN "Mfg_Part_No"
+	1    5250 3250
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
