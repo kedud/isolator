@@ -246,11 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2450 8800 2450
 Wire Wire Line
-	8800 2450 8800 3850
-Wire Wire Line
-	8800 3850 8800 4600
-Wire Wire Line
-	8800 4600 8800 5350
+	8800 2450 8800 5350
 Wire Wire Line
 	8800 3850 7650 3850
 Wire Wire Line
@@ -259,11 +255,7 @@ Connection ~ 8800 3850
 Wire Wire Line
 	8550 4950 7600 4950
 Wire Wire Line
-	8550 2050 8550 2250
-Wire Wire Line
-	8550 2250 8550 3450
-Wire Wire Line
-	8550 3450 8550 4950
+	8550 2050 8550 4950
 Wire Wire Line
 	8550 3450 7650 3450
 Wire Wire Line
@@ -313,16 +305,12 @@ $EndComp
 Wire Wire Line
 	9800 2450 9700 2450
 Wire Wire Line
-	9700 2450 9700 2900
-Wire Wire Line
-	9700 2900 9700 3000
+	9700 2450 9700 3000
 Wire Wire Line
 	10100 2900 9700 2900
 Connection ~ 9700 2900
 Wire Wire Line
-	10400 2350 10600 2350
-Wire Wire Line
-	10600 2350 10950 2350
+	10400 2350 10950 2350
 Wire Wire Line
 	10600 2350 10600 2900
 Wire Wire Line
@@ -341,9 +329,7 @@ $EndComp
 Wire Wire Line
 	9700 3300 9700 3200
 Wire Wire Line
-	9650 4800 9650 5250
-Wire Wire Line
-	9650 5250 9650 5350
+	9650 4800 9650 5350
 Wire Wire Line
 	10050 5250 9650 5250
 Connection ~ 9650 5250
@@ -367,9 +353,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 4800 9650 4800
 Wire Wire Line
-	10400 4700 10550 4700
-Wire Wire Line
-	10550 4700 10900 4700
+	10400 4700 10900 4700
 $Comp
 L GND #PWR010
 U 1 1 57071EBD
@@ -442,16 +426,12 @@ F 10 "MF0207FTE52-100R" H 2350 6750 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 6750 2550 6750
-Wire Wire Line
-	2550 6750 3100 6750
+	2500 6750 3100 6750
 Wire Wire Line
 	2550 6750 2550 6600
 Connection ~ 2550 6750
 Wire Wire Line
-	2500 6950 2550 6950
-Wire Wire Line
-	2550 6950 3100 6950
+	2500 6950 3100 6950
 Wire Wire Line
 	2550 7050 2550 6950
 Connection ~ 2550 6950
