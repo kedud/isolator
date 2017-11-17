@@ -1,4 +1,4 @@
-update=Mercredi 15 novembre 2017 'à' 16:27:31
+update=Vendredi 17 novembre 2017 'à' 14:22:04
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,3 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=ne5532
-LibName32=pin_headers
